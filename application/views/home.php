@@ -15,69 +15,7 @@
         <?php $this->load->view('includes/nav.php'); ?>
     </header>
 
-    <!-- SLIDE SHOW -->
-
-    <section id="showcase">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <div class="carousel-inner">
-          <div class="carousel-item carousel-image carousel-image-1 center-center active">
-            <div class="shadow-overlay">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1 class="display-3">Responsabilidade</h1>
-                  <p class="lead text-center">
-                    Pensando em nossos pacientes, a seleção de nossos profissionais é precisa para garantir o melhor atentimento.
-                  </p>
-                  <a href="#" class="btn btn-success btn-lg btn-agendar">Agendar</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item carousel-image carousel-image-2 center-center">
-            <div class="shadow-overlay">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1 class="display-3">Comprometimento</h1>
-                  <p class="lead text-center">
-                   A prontidão de nossos profissionais expressa o nosso compromisso com a saúde e o bem estar de cada cliente.
-                  </p>
-                  <a href="#" class="btn btn-success btn-lg btn-agendar">Agendar</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item carousel-image carousel-image-3 center-bottom">
-            <div class="shadow-overlay">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1 class="display-3">Qualidade</h1>
-                  <p class="lead text-center">
-                  O planejmanto e gestão da nossa equipe visam garantir e otimizar a qualidade dos nossos serviços.
-                  </p>
-                  <a href="#" class="btn btn-success btn-lg btn-agendar">Agendar</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-
-        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </section>
+    <?php $this->load->view('includes/slide-show.php'); ?>
 
     <section id="services" class="py-5">
       <div class="container">
@@ -198,20 +136,19 @@
         <header class="section-header">
           <h3>Nosso Espaço</h3>
           <p>
-            Com o planejamento de nossa arquiteta Rayssa Lomar, conseguimos unir conforto e acessibilidade, buscando um
+            Com o planejamento de nossa arquiteta, conseguimos unir conforto e acessibilidade, buscando um
             visual aconchegante para toda a clinica.
           </p>
         </header>
         <div class="container-fluid">
           <div id="itemContainer" class="row no-gutters">
+
             <div class="col-lg-3 col-md-6">
               <div class="our-space-item">
-                <a href="images/our-space/1.jpg" class="our-space-popup" title="Portfolio Item 1">
-                  <img class="x" src="<?= base_url('assets/images/our-space/1.jpg'); ?>" alt="x" />
+                <a href="<?= base_url('assets/images/our-space/01.jpg'); ?>" class="our-space-popup" title="">
+                  <img class="x" src="<?= base_url('assets/images/our-space/01.jpg'); ?>" alt="x" />
                   <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 1</h2>
-                    </div>
+                    
                   </div>
                 </a>
               </div>
@@ -219,12 +156,23 @@
 
             <div class="col-lg-3 col-md-6">
               <div class="our-space-item">
-                <a href="images/our-space/2.jpg" class="our-space-popup" title="Portfolio Item 2">
-                  <img class="x" src="<?= base_url('assets/images/our-space/2.jpg'); ?>" alt="x" />
+                <a href="<?= base_url('assets/images/our-space/02.jpg'); ?>" class="our-space-popup" title="">
+                  <img class="x" src="<?= base_url('assets/images/our-space/02.jpg'); ?>" alt="x" />
                   <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 2</h2>
-                    </div>
+                    
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6">
+              <div class="our-space-item">
+                <a href="<?= base_url('assets/images/our-space/03.jpg'); ?>" class="our-space-popup" title="">
+                  <img class="x" src="<?= base_url('assets/images/our-space/03.jpg'); ?>" alt="x" />
+                  <div class="our-space-overlay">
+                   
                   </div>
                 </a>
               </div>
@@ -232,12 +180,10 @@
 
             <div class="col-lg-3 col-md-6">
               <div class="our-space-item">
-                <a href="images/our-space/3.jpg" class="our-space-popup" title="Portfolio Item 3">
-                  <img class="x" src="<?= base_url('assets/images/our-space/3.jpg'); ?>" alt="x" />
+                <a href="<?= base_url('assets/images/our-space/04.jpg'); ?>" class="our-space-popup" title="">
+                  <img class="x" src="<?= base_url('assets/images/our-space/04.jpg'); ?>" alt="x" />
                   <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 3</h2>
-                    </div>
+                    
                   </div>
                 </a>
               </div>
@@ -245,68 +191,15 @@
 
             <div class="col-lg-3 col-md-6">
               <div class="our-space-item">
-                <a href="images/our-space/4.jpg" class="our-space-popup" title="Portfolio Item 4">
-                  <img class="x" src="<?= base_url('assets/images/our-space/4.jpg'); ?>" alt="x" />
+                <a href="<?= base_url('assets/images/our-space/05.jpg'); ?>" class="our-space-popup" title="">
+                  <img class="x" src="<?= base_url('assets/images/our-space/05.jpg'); ?>" alt="x" />
                   <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 4</h2>
-                    </div>
                   </div>
                 </a>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-              <div class="our-space-item">
-                <a href="images/our-space/5.jpg" class="our-space-popup" title="Portfolio Item 5">
-                  <img class="x" src="<?= base_url('assets/images/our-space/5.jpg'); ?>" alt="x" />
-                  <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 5</h2>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="our-space-item">
-                <a href="images/our-space/6.jpg" class="our-space-popup" title="Portfolio Item 6">
-                  <img class="x" src="<?= base_url('assets/images/our-space/6.jpg'); ?>" alt="x" />
-                  <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 6</h2>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="our-space-item">
-                <a href="images/our-space/7.jpg" class="our-space-popup" title="Portfolio Item 7">
-                  <img class="x" src="<?= base_url('assets/images/our-space/7.jpg'); ?>" alt="x" />
-                  <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 7</h2>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="our-space-item">
-                <a href="images/our-space/8.jpg" class="our-space-popup" title="Portfolio Item 8">
-                  <img class="x" src="<?= base_url('assets/images/our-space/8.jpg'); ?>" alt="x" />
-                  <div class="our-space-overlay">
-                    <div class="our-space-info">
-                      <h2 class="">Portfolio Item 8</h2>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div class="holder"></div>

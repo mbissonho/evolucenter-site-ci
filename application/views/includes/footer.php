@@ -18,10 +18,10 @@
             <div class="col-lg-4 col-md-12 text-center links">
               <h4>Páginas</h4>
               <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="sobre.php">Sobre</a></li>
-                <li><a href="convenios.php">Convênios</a></li>
-                <li><a href="contato.php">Contato</a></li>
+                <li><a href="homr">Home</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="convenios">Convênios</a></li>
+                <li><a href="contato">Contato</a></li>
               </ul>
             </div>
 
