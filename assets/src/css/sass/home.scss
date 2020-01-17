@@ -1,0 +1,54 @@
+/* SERVICES */
+
+.col-service {
+  margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
+  padding: 0px 20px;
+}
+
+.service-card {
+  width: 100%;
+  min-height: 440px;
+  margin:0px;
+}
+
+.service-card-image {
+  max-height: 186px !important;
+  height: 162px !important;
+}
+
+@media (max-width: 1199.98px) {
+  .service-card {
+    min-height: 475px !important;
+  }
+
+  .service-card-image {
+    height: auto !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .service-card {
+    min-height: 400px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .col-service {
+    padding: 0px 30px !important;
+  }
+  
+  .service-card-image {
+    max-height: 300px !important;
+  }
+
+  .service-card {
+    min-height: 360px !important;
+  }
+
+}
+
+
+
+
+

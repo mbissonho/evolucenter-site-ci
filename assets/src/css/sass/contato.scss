@@ -1,0 +1,143 @@
+#contact {
+  padding: 170px 0px;
+}
+
+#contact .info {
+  color: #222;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #004a99;
+  float: left;
+}
+
+#contact .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+#contact .info .email p {
+  padding-top: 5px;
+}
+
+#contact .social-links {
+  padding-bottom: 20px;
+}
+
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #004a99;
+  color: #fff;
+  line-height: 1;
+  padding: 6px 0 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+i.fa-map-marker {
+  margin: 5px 0px 0px 5px;
+}
+
+#contact .social-links a i {
+  margin-top: 3px;
+}
+
+#contact .social-links a:hover {
+  background: #00428a;
+  color: #fff;
+}
+
+#contact .form #sendmessage {
+  color: #004a99;
+  border: 1px solid #004a99;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input,
+#contact .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 12px 10px;
+  line-height: 1;
+  resize: none;
+}
+
+#contact .form button[type="submit"] {
+  background: #004a99;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #00428a;
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .col-info {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .col-info .info p {
+    padding-left: 0px !important;
+  }
+
+  .col-info .info i {
+    display: block;
+    float: none !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  #contact {
+    padding: 120px 0px;
+  }
+
+  #contact .form button[type="submit"]{
+    margin-top: 20px;
+    width: 100% !important;
+    float: none !important;
+  }
+
+}
+

@@ -1,0 +1,14 @@
+RewriteEngine on
+
+#SetEnv CI_ENV production
+SetEnv MAIL_SMTP_SERVER_HOST smtp.server.com
+SetEnv MAIL_SMTP_SERVER_USER contato@evolucenter.com.br
+SetEnv MAIL_SMTP_SERVER_PORT 587
+SetEnv MAIL_SMTP_SERVER_PASS pass
+
+SetEnv BASE_URL http://localhost/projetos/evolucenter-site-ci/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php?/$0 [PT,L] 
+

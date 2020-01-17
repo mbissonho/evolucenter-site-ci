@@ -1,0 +1,94 @@
+.carousel-item {
+  height: 450px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.carousel-caption {
+  margin-bottom: 50px !important;
+}
+
+.carousel-image {
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+}
+
+.center-center {
+  background-position: center center !important;
+}
+
+.center-top {
+  background-position: center top !important;
+}
+
+.center-bottom {
+  background-position: center bottom !important;
+}
+
+.shadow-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-image-1 {
+  background: url("../images/slide1.jpg");
+}
+
+.carousel-image-2 {
+  background: url("../images/slide2.jpg");
+}
+
+.carousel-image-3 {
+  background: url("../images/slide3.jpg");
+}
+
+.lead{
+  padding-bottom: 24px;
+}
+
+@media (max-width: 991.98px) {
+  .carousel-item {
+    height: 380px;
+  }
+
+  .carousel-caption {
+    margin-bottom: 25px !important;
+  }
+
+  .carousel-caption .display-3 {
+    font-size: 25pt;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    margin-bottom: 20px !important;
+  }
+
+  .carousel-caption .display-3 {
+    font-size: 18pt;
+  }
+
+  .lead{
+    padding-bottom: 8px;
+    font-size: 10pt;
+  }
+
+  .btn-agendar{
+    padding: 5px 10px;
+    font-size: 10pt;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .carousel-item {
+    height: 250px;
+  }
+}
