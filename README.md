@@ -6,7 +6,7 @@ Projeto simples usado para demonstrar a utilização do framework PHP CodeIgnite
 
 1. Clone este repositório.
 
-`$ git clone https://github.com/mbissonho/evolucenter-site-ci`
+    `$ git clone https://github.com/mbissonho/evolucenter-site-ci`
 
 2. Faça download do [CodeIgniter 3.1.11](https://github.com/bcit-ci/CodeIgniter/archive/3.1.11.zip).
 
