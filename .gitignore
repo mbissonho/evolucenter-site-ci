@@ -1,3 +1,4 @@
 system/
 node_modules/
 user_guide/
+dist/
