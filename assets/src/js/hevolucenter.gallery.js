@@ -4,7 +4,6 @@ Evolucenter.Gallery = (function() {
 
     function Gallery() {
         this.holder = undefined;
-
     }
 
     Gallery.prototype.init = function(configObj) {
@@ -49,6 +48,8 @@ Evolucenter.Gallery = (function() {
             keyBrowse: true,
             midRange: 3
         });
+        console.log(this.holder);
+        
     }
 
     function destroyJPages() {
