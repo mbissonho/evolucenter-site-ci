@@ -1,5 +1,7 @@
 @import 'vars.scss';
 
+$cta-btn-color: #50d8af;
+
 .call-to-action {
 
   background: $color-1;
@@ -16,8 +18,6 @@
   .cta-text {
     color: #fff;
   }
-
-  $cta-btn-color: #50d8af;
 
   .cta-btn {
     font-weight: 700;
