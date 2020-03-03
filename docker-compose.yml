@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  apache:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: mbissonho/simple-php-server
+    container_name: simple-php-server
+    restart: always
+    ports:
+      - '80:80'
