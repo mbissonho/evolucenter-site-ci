@@ -34,6 +34,8 @@ Projeto simples usado para demonstrar a utilização do framework PHP CodeIgnite
 
 `$ docker-compose up --build`
 
+3. Acesse o site em http://localhost/.
+
 ## Para editar os assets:
 
 O projeto está utilizando Task Runner GruntJS para automatizar algumas tarefas em tempo de desenvolvimento. O GruntJS possue diversas utilidades como exclusão de arquivos e diretórios, concatenação e minificação de arquivos .css e .js, "compila" sass para css, entre outras coisas.
