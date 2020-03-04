@@ -30,11 +30,15 @@ Projeto simples usado para demonstrar a utilização do framework PHP CodeIgnite
 
 `$ git clone https://github.com/mbissonho/evolucenter-site-ci`
 
-2. Execute o comando: 
+2. Execute o script para obter o diretório system do CodeIgniter:
+
+`$ ./get_system_dir.sh`
+
+3. Execute o comando: 
 
 `$ docker-compose up --build`
 
-3. Acesse o site em http://localhost/.
+4. Acesse o site em http://localhost/.
 
 ## Para editar os assets:
 
