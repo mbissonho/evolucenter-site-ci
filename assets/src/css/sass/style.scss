@@ -1,8 +1,3 @@
-/* primary-color: */
-/* second-color: */
-
-/* Commons */
-
 body {
   background-color: #fff;
 }
@@ -11,4 +6,11 @@ body {
   max-width: 1900px;
   margin: 0px auto;
   background-color: #fff;
+}
+
+a {
+  &:hover, &:focus{
+    text-decoration: none;
+    outline: none;
+  }
 }
