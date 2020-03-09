@@ -75,4 +75,6 @@ a medida o sass (.scss) é modificado.
 - Kubuntu 18.04
 - Apache/2.4.29
 - PHP 7.2.24
+- NodeJS 12.13.1
+- NPM 6.12.1
 - Docker 19.03.5
