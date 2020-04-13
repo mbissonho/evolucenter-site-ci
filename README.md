@@ -9,7 +9,7 @@ Projeto simples usado para demonstrar a utilização do framework PHP CodeIgnite
 
 1. Clone este repositório.
 
-`$ git clone https://github.com/mbissonho/evolucenter-site-ci`
+    `$ git clone https://github.com/mbissonho/evolucenter-site-ci`
 
 2. Faça download do [CodeIgniter 3.1.11](https://github.com/bcit-ci/CodeIgniter/archive/3.1.11.zip).
   
@@ -28,15 +28,15 @@ Projeto simples usado para demonstrar a utilização do framework PHP CodeIgnite
 
 1. Clone este repositório.
 
-`$ git clone https://github.com/mbissonho/evolucenter-site-ci`
+    `$ git clone https://github.com/mbissonho/evolucenter-site-ci`
 
-2. Execute o script para obter o diretório system do CodeIgniter:
+2. Execute o script para obter o diretório `system` do CodeIgniter:
 
-`$ ./get_system_dir.sh`
+    `$ ./get_system_dir.sh`
 
 3. Execute o comando: 
 
-`$ docker-compose up --build`
+    `$ docker-compose up --build`
 
 4. Acesse o site em http://localhost/.
 
@@ -48,21 +48,20 @@ O arquivo Gruntfile.js define todas as tarefas(tasks) que serão utilizadas no p
 
 1. Instale as dependências.
 
-`$ npm i`
+    `$ npm i`
 
 2. Para rodar a task que concatena, minifica e processa todos os assets.
 
-`$ grunt all`
+    `$ grunt all`
 
-3. Para rodar a task apenas associado ao sass e css.
+3. Para rodar a task apenas associada ao sass e css.
 
-`$ grunt css`
+    `$ grunt css`
 
-4. Se quiser que o Grunt execute a última task automaticamente
+4. Se quiser que o Grunt execute a task referente ao sass e css, retratada anteriormente, automaticamente
+a medida que os arquivos sass (.scss) são modificados.
 
-a medida o sass (.scss) é modificado.
-
-`$ grunt watch`
+    `$ grunt watch`
 
 ### Para mais informações sobre as tecnologias:
 
