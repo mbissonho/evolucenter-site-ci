@@ -30,19 +30,15 @@ Projeto simples usado para demonstrar a utilização do framework PHP CodeIgnite
 
     `$ git clone https://github.com/mbissonho/evolucenter-site-ci`
 
-2. Execute o script para obter o diretório `system` do CodeIgniter:
-
-    `$ ./get_system_dir.sh`
-
-3. Execute o comando: 
+2. Execute o comando: 
 
     `$ docker-compose up --build`
 
-4. Acesse o site em http://localhost/.
+3. Acesse o site em http://localhost/.
 
 ## Para editar os assets:
 
-O projeto está utilizando Task Runner GruntJS para automatizar algumas tarefas em tempo de desenvolvimento. O GruntJS possue diversas utilidades como exclusão de arquivos e diretórios, concatenação e minificação de arquivos .css e .js, "compila" sass para css, entre outras coisas.
+O projeto está utilizando o Task Runner GruntJS para automatizar algumas tarefas em tempo de desenvolvimento. O GruntJS possue diversas utilidades como exclusão de arquivos e diretórios, concatenação e minificação de arquivos .css e .js, "compila" sass para css, entre outras coisas.
 
 O arquivo Gruntfile.js define todas as tarefas(tasks) que serão utilizadas no projeto e como elas vão funcionar. Para utilizar siga:
 
