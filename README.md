@@ -30,9 +30,11 @@ Projeto simples usado para demonstrar a utilização do framework PHP CodeIgnite
 
     `$ git clone https://github.com/mbissonho/evolucenter-site-ci`
 
-2. Execute o comando: 
+2. Execute os comandos:
 
-    `$ docker-compose up --build`
+    `$ docker-compose build --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g)`
+
+    `$ docker-compose up`
 
 3. Acesse o site em http://localhost/.
 
