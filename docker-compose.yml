@@ -9,7 +9,7 @@ services:
     container_name: simple-php-server
     command: >
             /bin/sh -c "./get_ci_system_dir.sh && 
-            /usr/sbin/apache2ctl -D FOREGROUND"
+            sudo /usr/sbin/apache2ctl -D FOREGROUND"
     restart: always
     ports:
       - '80:80'
